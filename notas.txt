@@ -1,0 +1,73 @@
+"""
+result = [
+    ['13:00'], ['time 1', 'x', 'time 5'],'\n',
+    ['14:00'], ['time 2', 'x', 'time 6'],'\n',
+    ['15:00'], ['time 3', 'x', 'time 7'],'\n',
+    ['16:00'], ['time 4', 'x', 'time 8']
+]
+"""
+
+Text(root, height=10, width=24).place(x=30, y=250)
+
+
+conf1 = Label(root, text="Time 1")
+conf1.place(x=15, y=260)
+Label(root, text="X").place(x=90, y=260)
+conf2 = Label(root, text="Time 5")
+conf2.place(x=130, y=260)
+
+conf3 = Label(root, text="Time 1")
+conf3.place(x=15, y=280)
+Label(root, text="X").place(x=90, y=280)
+conf4 = Label(root, text="Time 5")
+conf4.place(x=130, y=280)
+
+conf5 = Label(root, text="Time 1")
+conf5.place(x=15, y=300)
+Label(root, text="X").place(x=90, y=300)
+conf6 = Label(root, text="Time 5")
+conf6.place(x=130, y=300)
+
+conf7 = Label(root, text="Time 1")
+conf7.place(x=15, y=320)
+Label(root, text="X").place(x=90, y=320)
+conf8 = Label(root, text="Time 5")
+conf8.place(x=130, y=320)
+
+
+
+    conf1['text'] = str(time1.get())
+    conf2['text'] = str(time2.get())
+    conf3['text'] = str(time3.get())
+    conf4['text'] = str(time4.get())
+    conf5['text'] = str(time5.get())
+    conf6['text'] = str(time6.get())
+    conf7['text'] = str(time7.get())
+    conf8['text'] = str(time8.get())
+
+    conf11['text'] = str(time1.get())
+    conf22['text'] = str(time2.get())
+    conf33['text'] = str(time3.get())
+    conf44['text'] = str(time4.get())
+    conf55['text'] = str(time5.get())
+    conf66['text'] = str(time6.get())
+    conf77['text'] = str(time7.get())
+    conf88['text'] = str(time8.get())
+
+    conf111['text'] = str(time1.get())
+    conf222['text'] = str(time2.get())
+    conf333['text'] = str(time3.get())
+    conf444['text'] = str(time4.get())
+    conf555['text'] = str(time5.get())
+    conf666['text'] = str(time6.get())
+    conf777['text'] = str(time7.get())
+    conf888['text'] = str(time8.get())
+
+    conf1A['text'] = str(time1.get())
+    conf2B['text'] = str(time2.get())
+    conf3C['text'] = str(time3.get())
+    conf4D['text'] = str(time4.get())
+    conf5E['text'] = str(time5.get())
+    conf6F['text'] = str(time6.get())
+    conf7G['text'] = str(time7.get())
+    conf8H['text'] = str(time8.get())
